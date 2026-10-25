@@ -23,7 +23,7 @@
 
 <p align="center">
   <sub>
-    Beta 0.1.0, released 2026-10-24
+    Beta 0.1.1, released 2026-10-25
     &nbsp;·&nbsp; ARM64 (untested): <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-windows-arm64.zip">Windows</a>, <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-linux-arm64.tar.gz">Linux</a>
     &nbsp;·&nbsp; <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases">All versions</a>
     &nbsp;·&nbsp; <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/SHA256SUMS.txt">SHA-256 checksums</a>
@@ -93,39 +93,40 @@ switch puzzle at their heart, and a short cut to find for next time.
 
 ## The levels
 
-The beta has nineteen levels in the campaign, plus a bonus pack of four typed out
-the old way.
+The beta has nineteen levels in the campaign, roughly easiest first, plus a bonus
+pack of four typed out the old way.
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/full-tilt.jpg" alt="Full Tilt: a giant pinball machine standing tilted in a dark arcade"></td>
+    <td width="50%"><img src="assets/multiball.jpg" alt="Multiball: a giant pinball table standing tilted in a dark arcade"></td>
     <td width="50%"><img src="assets/ski-resort.jpg" alt="Ski Resort: an Alpine village, the chairlift, an ice slide and the snowy peaks"></td>
   </tr>
   <tr>
-    <td align="center"><sub><b>Full Tilt</b>: you're the ball. Ride the flippers up the table</sub></td>
+    <td align="center"><sub><b>Multiball</b>: you're the ball. Ride the flippers up the table</sub></td>
     <td align="center"><sub><b>Ski Resort</b>: chairlifts, crevasses and an avalanche you set off yourself</sub></td>
   </tr>
 </table>
 
 1. **First Steps.** Pink holds you, blue kills you, brown moves.
 2. **Ice Bridge.** Hard to start, harder to stop. Mind the swinging pillars.
-3. **Ice Rink.** A frozen maze. One switch swings a third of the walls, and something lurks under the ice.
-4. **Tubular Hell.** Four tubes in fog, in a different order every time.
-5. **Castle Park.** Climb the tower. Switches open short-cut lifts, so a fall is never the end.
-6. **Birchwood.** Climb the birches, hop the leaves and fell a brown tree across the gap.
-7. **Pirate Ship.** Fire yourself from the Long Tom, ride the whale and climb to the crow's nest.
-8. **Jumbo Jet.** Hitch a lift on a light aircraft, climb aboard a cargo jumbo and walk its roof to the tail.
-9. **Ski Resort.** Fly off the ski jump, or set off the avalanche to bridge the great crevasse.
-10. **Building Site.** Walk up a turning mixer drum, ride a crane's girder and reach the topping-out beam 75 m up.
-11. **Giant Kitchen.** You're two centimetres tall. Ride the sushi belt and let the toaster pop you up to the shelves.
+3. **Giant Kitchen.** You're two centimetres tall. Ride the sushi belt and let the toaster pop you up to the shelves.
+4. **Polderland.** The sea has broken through the dyke. Ride a windmill's sails over the top to close the breach.
+5. **Tubular Hell.** Four tubes in fog, in a different order every time.
+6. **Ski Resort.** Fly off the ski jump, or set off the avalanche to bridge the great crevasse.
+7. **Birchwood.** Climb the birches, hop the leaves and fell a brown tree across the gap.
+8. **Ice Rink.** A frozen maze. One switch swings a third of the walls, and something lurks under the ice.
+9. **Clock Tower.** Climb through the works of a great clock and catch the cuckoo when it strikes.
+10. **Colosseum.** Dodge the chariots, ride the lifts up through the flooded arena and walk the velarium's rope.
+11. **Building Site.** Walk up a turning mixer drum, ride a crane's girder and reach the topping-out beam 75 m up.
 12. **Haunted House.** The stairs turn into a slide, the parlour tips over and the portraits watch you.
 13. **Steam Railway.** The line is blue, so ride the trains: on the roof over the water troughs, down in a wagon before the tunnel.
-14. **Clock Tower.** Climb through the works of a great clock and catch the cuckoo when it strikes.
-15. **Colosseum.** Dodge the chariots, ride the lifts up through the flooded arena and walk the velarium's rope.
-16. **Pleasure Pier.** A Victorian funfair at dusk: the gallopers, the helter skelter, the ghost train and the Ferris wheel.
-17. **Full Tilt.** You're the ball in a giant pinball machine. Tilt it, find the subway and start multiball.
-18. **Dry Gulch.** Rob the bank through its roof, cross the gorge and ride a log down the flume.
-19. **Polderland.** The sea has broken through the dyke. Ride a windmill's sails over the top to close the breach.
+14. **Pirate Ship.** Fire yourself from the Long Tom, ride the whale and climb to the crow's nest.
+15. **Multiball.** You're the ball. Plunge, flip and slide round a giant pinball table, and run for the jackpot through multiball.
+16. **Jumbo Jet.** Hitch a lift on a light aircraft, climb aboard a cargo jumbo and walk its roof to the tail.
+17. **Dry Gulch.** Rob the bank through its roof, cross the gorge and ride a log down the flume.
+18. **Castle Park.** Climb the tower. Switches open short-cut lifts, so a fall is never the end.
+19. **Pleasure Pier.** A Victorian funfair at dusk: the gallopers, the helter skelter, the ghost train and the Ferris wheel.
+20. **Via Ferrata.** Climb a misty gorge on iron rungs and rotten planks, work the winch three times and get fired across to the summit cross.
 
 Eat every nom in a level for a nom badge. Reach the End without dying once for a
 gold star, and a much bigger celebration. And every level hides a pot plant
