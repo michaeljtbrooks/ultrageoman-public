@@ -23,7 +23,7 @@
 
 <p align="center">
   <sub>
-    Beta 0.1.1, released 2026-10-25
+    Beta 0.2.0, released 2026-10-29
     &nbsp;·&nbsp; ARM64 (untested): <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-windows-arm64.zip">Windows</a>, <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-linux-arm64.tar.gz">Linux</a>
     &nbsp;·&nbsp; <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases">All versions</a>
     &nbsp;·&nbsp; <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/SHA256SUMS.txt">SHA-256 checksums</a>
@@ -98,11 +98,11 @@ pack of four typed out the old way.
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/multiball.jpg" alt="Multiball: a giant pinball table standing tilted in a dark arcade"></td>
+    <td width="50%"><img src="assets/full_tilt.jpg" alt="Full Tilt: a giant pinball table standing tilted in a dark arcade"></td>
     <td width="50%"><img src="assets/ski-resort.jpg" alt="Ski Resort: an Alpine village, the chairlift, an ice slide and the snowy peaks"></td>
   </tr>
   <tr>
-    <td align="center"><sub><b>Multiball</b>: you're the ball. Ride the flippers up the table</sub></td>
+    <td align="center"><sub><b>Full Tilt</b>: you're the ball. Ride the flippers up the table</sub></td>
     <td align="center"><sub><b>Ski Resort</b>: chairlifts, crevasses and an avalanche you set off yourself</sub></td>
   </tr>
 </table>
@@ -121,7 +121,7 @@ pack of four typed out the old way.
 12. **Haunted House.** The stairs turn into a slide, the parlour tips over and the portraits watch you.
 13. **Steam Railway.** The line is blue, so ride the trains: on the roof over the water troughs, down in a wagon before the tunnel.
 14. **Pirate Ship.** Fire yourself from the Long Tom, ride the whale and climb to the crow's nest.
-15. **Multiball.** You're the ball. Plunge, flip and slide round a giant pinball table, and run for the jackpot through multiball.
+15. **Full Tilt.** You're the ball. Plunge, flip and slide round a giant pinball table, and run for the jackpot through multiball.
 16. **Jumbo Jet.** Hitch a lift on a light aircraft, climb aboard a cargo jumbo and walk its roof to the tail.
 17. **Dry Gulch.** Rob the bank through its roof, cross the gorge and ride a log down the flume.
 18. **Castle Park.** Climb the tower. Switches open short-cut lifts, so a fall is never the end.
