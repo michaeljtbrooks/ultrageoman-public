@@ -23,7 +23,7 @@
 
 <p align="center">
   <sub>
-    Beta 0.2.0, released 2026-10-29
+    Beta 0.2.1, released 2026-11-08
     &nbsp;·&nbsp; ARM64 (untested): <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-windows-arm64.zip">Windows</a>, <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-linux-arm64.tar.gz">Linux</a>
     &nbsp;·&nbsp; <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases">All versions</a>
     &nbsp;·&nbsp; <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/SHA256SUMS.txt">SHA-256 checksums</a>
@@ -93,7 +93,7 @@ switch puzzle at their heart, and a short cut to find for next time.
 
 ## The levels
 
-The beta has nineteen levels in the campaign, roughly easiest first, plus a bonus
+The beta has twenty levels in the campaign, roughly easiest first, plus a bonus
 pack of four typed out the old way.
 
 <table>
@@ -126,7 +126,7 @@ pack of four typed out the old way.
 17. **Dry Gulch.** Rob the bank through its roof, cross the gorge and ride a log down the flume.
 18. **Castle Park.** Climb the tower. Switches open short-cut lifts, so a fall is never the end.
 19. **Pleasure Pier.** A Victorian funfair at dusk: the gallopers, the helter skelter, the ghost train and the Ferris wheel.
-20. **Via Ferrata.** Climb a misty gorge on iron rungs and rotten planks, work the winch three times and get fired across to the summit cross.
+20. **Via Ferrata.** Climb a misty gorge on iron rungs and rotten planks, work the winch three times and get fired across to the summit cross. Almost impossible to beat.
 
 Eat every nom in a level for a nom badge. Reach the End without dying once for a
 gold star, and a much bigger celebration. And every level hides a pot plant
@@ -143,15 +143,20 @@ they are.
 | Windows on ARM (untested) | [UltraGeoman-windows-arm64.zip](https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-windows-arm64.zip) | Unzip it and run `UltraGeoman.exe` |
 | Linux on ARM (untested) | [UltraGeoman-linux-arm64.tar.gz](https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-linux-arm64.tar.gz) | `./UltraGeoman.arm64` |
 
-There's no installer. Each download is one program and a short `README-FIRST.txt`.
+There's no installer. Each download is one program and a short `README-FIRST.txt`
+(the Linux ones also have the icon and `add-to-menu.sh`).
 Keep the folder wherever you like.
 
 **Windows says "Windows protected your PC".** The game isn't code-signed yet, so
 SmartScreen warns you the first time. Choose **More info**, then **Run anyway**.
 
-**Steam Deck.** Switch to Desktop Mode, download the Linux version and extract it.
-Right-click `UltraGeoman.x86_64` and choose **Add to Steam**. Back in Gaming Mode
-it's in your library under **Non-Steam**, and it plays with the Deck's own controls.
+**Steam Deck.** Switch to Desktop Mode by pressing the seam button > Power Options > "Switch to Desktop".
+In desktop mode, download the Linux version of Ultra Geoman and extract it.
+In the folder where you extracted it, right-click and choose **Add to Steam**. This will
+add it to your Steam Library. Switch back to Gaming Mode by minimising the folder window
+and clicking the "Return to Gaming Mode" icon on the Steam Deck desktop. 
+Back in Gaming Mode it's in your library under **Non-Steam**, and it plays with the Deck's
+own controls. On any other Linux, run the `./add-to-menu.sh` script which puts it in your app menu too.
 
 **The ARM64 versions have never been run.** They're built the same way as the
 others, but I don't have an ARM machine to try them on. If one works for you (or
@@ -178,6 +183,14 @@ No account, no internet connection, no telemetry. It's a game.
 | Restart the level | R | Back / View |
 | Pause | Esc or P | Start / Menu |
 | Fullscreen | F11 | |
+
+Controls can be adjusted in the game: Settings > Controls.
+
+"Follow-me camera" follows the character around if you don't want to 
+manually control the camera. "Detect" mode means that follow-me mode
+is only turned on if you don't have any controls assigned
+to camera movement, otherwise it expects you to control the camera. 
+
 
 ## Make your own levels
 
@@ -240,7 +253,5 @@ Progress is saved as you go, and carries over to new versions:
 
 ## Credits
 
-Ultra Geoman is © 2026 Dr Michael Brooks. All rights reserved. The source code
-isn't public. Built with the [Godot Engine](https://godotengine.org) (MIT licence)
-and its Jolt physics. Text is set in Roboto and Aerial. The licences come with each
+Ultra Geoman is © 2026 Dr Michael Brooks. All rights reserved. Built with the [Godot Engine](https://godotengine.org) (MIT licence) and its Jolt physics. The licences come with each
 download, in `godot-COPYRIGHT.txt` and `THIRD-PARTY-NOTICES.txt`.
