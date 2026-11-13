@@ -19,11 +19,13 @@
   <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-windows-x86_64.zip"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-Windows-f762a8?style=for-the-badge"></a>
   &nbsp;
   <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-linux-x86_64.tar.gz"><img alt="Download for Linux and Steam Deck" src="https://img.shields.io/badge/Download-Linux%20%26%20Steam%20Deck-2734ff?style=for-the-badge"></a>
+  &nbsp;
+  <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-macos.zip"><img alt="Download for macOS" src="https://img.shields.io/badge/Download-macOS-8a1fff?style=for-the-badge"></a>
 </p>
 
 <p align="center">
   <sub>
-    Beta 0.2.1, released 2026-11-08
+    Beta 0.3.0, released 2026-11-13
     &nbsp;·&nbsp; ARM64 (untested): <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-windows-arm64.zip">Windows</a>, <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-linux-arm64.tar.gz">Linux</a>
     &nbsp;·&nbsp; <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases">All versions</a>
     &nbsp;·&nbsp; <a href="https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/SHA256SUMS.txt">SHA-256 checksums</a>
@@ -127,6 +129,7 @@ pack of four typed out the old way.
 18. **Castle Park.** Climb the tower. Switches open short-cut lifts, so a fall is never the end.
 19. **Pleasure Pier.** A Victorian funfair at dusk: the gallopers, the helter skelter, the ghost train and the Ferris wheel.
 20. **Via Ferrata.** Climb a misty gorge on iron rungs and rotten planks, work the winch three times and get fired across to the summit cross. Almost impossible to beat.
+21. **Observatory.** Open the dome, then let the giant telescope fire you into the night sky: turn it a notch at a time to visit the Junkyard, a UFO, the ISS, a comet, the Plough and the Moon, where the End waits on the peak.
 
 Eat every nom in a level for a nom badge. Reach the End without dying once for a
 gold star, and a much bigger celebration. And every level hides a pot plant
@@ -140,6 +143,7 @@ they are.
 | **Windows** (64-bit) | [UltraGeoman-windows-x86_64.zip](https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-windows-x86_64.zip) | Unzip it and run `UltraGeoman.exe` |
 | **Linux** (64-bit) | [UltraGeoman-linux-x86_64.tar.gz](https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-linux-x86_64.tar.gz) | `tar xzf UltraGeoman-linux-x86_64.tar.gz`, then `./UltraGeoman.x86_64` |
 | **Steam Deck** | the Linux one, above | See below |
+| **macOS** (Apple Silicon and Intel) | [UltraGeoman-macos.zip](https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-macos.zip) | Unzip it (Safari does that for you) and open **Ultra Geoman**. See below |
 | Windows on ARM (untested) | [UltraGeoman-windows-arm64.zip](https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-windows-arm64.zip) | Unzip it and run `UltraGeoman.exe` |
 | Linux on ARM (untested) | [UltraGeoman-linux-arm64.tar.gz](https://github.com/michaeljtbrooks/ultrageoman-public/releases/latest/download/UltraGeoman-linux-arm64.tar.gz) | `./UltraGeoman.arm64` |
 
@@ -149,6 +153,13 @@ Keep the folder wherever you like.
 
 **Windows says "Windows protected your PC".** The game isn't code-signed yet, so
 SmartScreen warns you the first time. Choose **More info**, then **Run anyway**.
+
+**macOS says "Ultra Geoman" Not Opened** (or "can't be opened because Apple
+cannot check it"). The game isn't notarised by Apple, so macOS stops it the first
+time. Click **Done**, then open **System Settings > Privacy & Security**, scroll
+down to Security and click **Open Anyway** beside Ultra Geoman, and confirm. On
+macOS 14 or older you can instead Control-click the app, choose **Open**, then
+**Open** again. Either way you only do it once.
 
 **Steam Deck.** Switch to Desktop Mode by pressing the seam button > Power Options > "Switch to Desktop".
 In desktop mode, download the Linux version of Ultra Geoman and extract it.
@@ -162,11 +173,15 @@ own controls. On any other Linux, run the `./add-to-menu.sh` script which puts i
 others, but I don't have an ARM machine to try them on. If one works for you (or
 doesn't), please say so. On Windows on ARM the ordinary Windows version also runs.
 
+**The Mac version is new.** It's one app for both Apple Silicon and Intel Macs,
+built the same way as the others. If it gives you any trouble, please say so.
+
 ### What you need
 
-- 64-bit Windows 10 or 11, or 64-bit Linux, or a Steam Deck
-- A graphics card that can do Vulkan (or Direct3D 12 on Windows). Anything from
-  the last ten years should be fine
+- 64-bit Windows 10 or 11, or 64-bit Linux, or a Steam Deck, or a Mac on
+  macOS 13 or newer (macOS 11 or newer on an Intel Mac)
+- A graphics card that can do Vulkan (or Direct3D 12 on Windows, or Metal on a
+  Mac). Anything from the last ten years should be fine
 - A keyboard and mouse, or a controller
 
 No account, no internet connection, no telemetry. It's a game.
@@ -179,9 +194,11 @@ No account, no internet connection, no telemetry. It's a game.
 | Look | Mouse | Right stick |
 | Jump (hold for higher) | Space | A |
 | Shoot, once powered up | Left click, F or E | X or right trigger |
-| Zoom | Mouse wheel | Shoulder buttons |
-| Restart the level | R | Back / View |
-| Pause | Esc or P | Start / Menu |
+| Fine aim (hold) | Right click | LB / L1 |
+| Reset the camera | 0 | Right stick click |
+| Zoom | Mouse wheel | |
+| Restart the level | R | From the pause menu |
+| Pause | Esc or P | Start / Menu, or View / Share |
 | Fullscreen | F11 | |
 
 Controls can be adjusted in the game: Settings > Controls.
@@ -190,6 +207,9 @@ Controls can be adjusted in the game: Settings > Controls.
 manually control the camera. "Detect" mode means that follow-me mode
 is only turned on if you don't have any controls assigned
 to camera movement, otherwise it expects you to control the camera. 
+
+"Motion sickness suppression vignetting" (Settings) blurs or darkens the
+edges of the screen while the view turns or moves quickly.
 
 
 ## Make your own levels
@@ -250,6 +270,7 @@ Progress is saved as you go, and carries over to new versions:
 
 - Windows: `%APPDATA%\Godot\app_userdata\Ultra Geoman`
 - Linux and Steam Deck: `~/.local/share/godot/app_userdata/Ultra Geoman`
+- macOS: `~/Library/Application Support/Godot/app_userdata/Ultra Geoman`
 
 ## Credits
 
